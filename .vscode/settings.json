@@ -1,0 +1,18 @@
+{
+    "python-envs.pythonProjects": [
+        {
+            "path": "",
+            "envManager": "ms-python.python:venv",
+            "packageManager": "ms-python.python:pip"
+        }
+    ],
+    // Ruff configuration
+    "ruff.enable": true,
+    "ruff.lint.enable": true,
+    "ruff.organizeImports": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports.ruff": "explicit",
+        "source.fixAll.ruff": "explicit"
+    },
+    "ruff.showNotifications": "always"
+}
